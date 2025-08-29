@@ -5,12 +5,13 @@
     "main": "api/index.js",
     "license": "MIT",
     "scripts": {
-      "dev": "node api/index.js"
+        "dev": "node api/index.js"
     },
     "dependencies": {
-      "cors": "^2.8.5",
-      "dotenv": "^17.2.1",
-      "express": "^5.1.0",
-      "mongoose": "^8.18.0"
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "mongoose": "^8.18.0",
+        "serverless-http": "^3.2.0"
     }
-  }
+}
