@@ -7,5 +7,5 @@ const counterSchema = new mongoose.Schema({
   dogs_lifetime: { type: Number, required: true, default: 0 },
 });
 
-module.exports = mongoose.model("Counter", counterSchema, "data"); 
-// "data" is the collection name in your DB
+module.exports = mongoose.model("Counter", counterSchema, "data");
+// "data" is your MongoDB collection name

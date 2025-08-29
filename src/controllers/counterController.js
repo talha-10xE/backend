@@ -1,6 +1,6 @@
 const Counter = require("../models/Counter");
 
-// Fetch counter data
+// GET /api/counter
 exports.getCounter = async (req, res) => {
   try {
     const counter = await Counter.findOne();
@@ -11,7 +11,7 @@ exports.getCounter = async (req, res) => {
   }
 };
 
-// Update vote
+// POST /api/counter/vote
 exports.addVote = async (req, res) => {
   try {
     const { pet } = req.body; // "cat" or "dog"
